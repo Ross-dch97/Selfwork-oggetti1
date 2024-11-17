@@ -5,7 +5,7 @@ let persona =  {
     età : 27,
 
     saluto: function () {
-        console.log(`Ciao a tutti mi chiamo ${this.nome}`);
+        console.log(`Ciao a tutti mi chiamo ${this.nome} ${this.cognome} e ho ${this.età} anni`);
         
     }
 }
